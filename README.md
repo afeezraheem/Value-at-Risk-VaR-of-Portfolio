@@ -6,13 +6,17 @@ Value at Risk,VaR, is a risk management technique to calculate the maximum loss 
 
 As in the attached Python code file, I calculated the following:
 
-The periodic returns of the stocks in your portfolio
-The covariance matrix based on the returns calculated
-The overall portfolio mean and standard deviation (weighted based on investment levels of each stock in portfolio)
-Using the Norm object from scipy.stats, I calculated the inverse of the normal cumulative distribution with a specified probability, standard deviation, and mean
-Finally, I estimate the VaR for the portfolio by subtracting the initial investment from the calculation in step 4
+1. The periodic returns of the stocks in your portfolio
 
-Challenges Faced/Special tasks:
+2. The covariance matrix based on the returns calculated
 
-Installing Yahoo! Finance package 
+3. The overall portfolio mean and standard deviation (weighted based on investment levels of each stock in portfolio)
+
+4. Using the Norm object from scipy.stats, I calculated the inverse of the normal cumulative distribution with a specified probability, standard deviation, and mean
+
+5. Finally, I estimate the VaR for the portfolio by subtracting the initial investment from the calculation in step 4
+
+6. I calculated the VaR for expanded period windows, and studied the trend
+
+
 
