@@ -18,5 +18,23 @@ As in the attached Python code file, I calculated the following:
 
 6. I calculated the VaR for expanded period windows, and studied the trend
 
+Assumptions of VaR Portfolio Theory
 
+5 underlying assumptions for VaR Portfolio concept are often identified in the literature. They include:
+
+1. Stationarity: A 1-percentage fluctuation in returns is equally likely to occur at any point in time.
+
+2. Random walk of intertemporal unpredictability: Day-to-day fluctuations in returns are assumed to be independent.
+
+3. Nonnegativity: Financial assets with limited liability cannot attain negative values.
+
+4. Time consistency. All single-period assumptions hold over the multiperiod time horizon.
+
+5. Distributional. Daily return fluctuations follow a normal distribution with a mean of zero and a standard deviation of 100 bp[4] (Allen, Boudoukh, and Saunders 2004, 8-9).
+
+In respect of these assumptions,the distributional assumption is often flawed. Stock returns, from historical perspective, have often been proven to not follow a normal distribution. However, using log normal distribution ( zero lower bounds, and long positively skewed tail) is more suitable . I intend to explore this approach in a future exercise
+
+Refererence Materials:
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html?fbclid=IwAR2gqmRetMwd-dH7lOYPpxITbYtqtuf25umX59FJh3J52byhJFWOSgG6xu4
+https://financetrain.com/why-lognormal-distribution-is-used-to-describe-stock-prices/
 
