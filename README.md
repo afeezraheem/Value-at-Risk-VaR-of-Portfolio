@@ -14,7 +14,7 @@ As in the attached Python code file, I calculated the following:
 
 4. Using the Norm object from scipy.stats, I calculated the inverse of the normal cumulative distribution with a specified probability, standard deviation, and mean
 
-5. Finally, I estimate the VaR for the portfolio by subtracting the initial investment from the calculation in step 4
+5. Finally, I estimated the VaR for the portfolio by subtracting the initial investment from the calculation in step 4
 
 6. I calculated the VaR for expanded period windows, and studied the trend
 
