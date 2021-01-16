@@ -32,7 +32,12 @@ Assumptions of VaR Portfolio Theory
 
 5. Distributional. Daily return fluctuations follow a normal distribution with a mean of zero and a standard deviation of 100 bp[4] (Allen, Boudoukh, and Saunders 2004, 8-9).
 
-In respect of these assumptions,the distributional assumption is often flawed. Stock returns, from historical perspective, have often been proven to not follow a normal distribution. However, using log normal distribution ( zero lower bounds, and long positively skewed tail) is more suitable . I intend to explore this approach in a future exercise
+In respect of these assumptions,the distributional assumption is often flawed. Stock returns, from historical perspective, have often been proven to not follow a normal distribution. However, using log normal distribution ( zero lower bounds, and long right tail) is more suitable. I intend to explore this approach in a future exercise
+
+Added Tasks:
+
+I installed yfinance, since fix_yahoo_finance had been decommissioned as Yahoo Finance historical market returns API
+
 
 Refererence Materials:
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.norm.html?fbclid=IwAR2gqmRetMwd-dH7lOYPpxITbYtqtuf25umX59FJh3J52byhJFWOSgG6xu4
