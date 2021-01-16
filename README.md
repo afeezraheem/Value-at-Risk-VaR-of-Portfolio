@@ -6,7 +6,7 @@ Value at Risk,VaR, is a risk management technique to calculate the maximum loss 
 
 As in the attached Python code file, I calculated the following:
 
-1. The periodic returns of the stocks in your portfolio
+1. The periodic returns of the stocks in the select portfolio
 
 2. The covariance matrix based on the returns calculated
 
