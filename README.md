@@ -30,7 +30,7 @@ Assumptions of VaR Portfolio Theory
 
 4. Time consistency. All single-period assumptions hold over the multiperiod time horizon.
 
-5. Distributional. Daily return fluctuations follow a normal distribution with a mean of zero and a standard deviation of 100 bp[4] (Allen, Boudoukh, and Saunders 2004, 8-9).
+5. Distributional. Daily return fluctuations follow a normal distribution with a mean of zero and a standard deviation of 100 basis points
 
 In respect of these assumptions,the distributional assumption is often flawed. Stock returns, from historical perspective, have often been proven to not follow a normal distribution. However, using log normal distribution ( zero lower bounds, and long right tail) is more suitable. I intend to explore this approach in a future exercise
 
