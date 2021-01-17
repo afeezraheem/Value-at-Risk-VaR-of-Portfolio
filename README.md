@@ -36,7 +36,7 @@ In respect of these assumptions,the distributional assumption is often flawed. S
 
 Added Tasks:
 
-I installed yfinance, since fix_yahoo_finance had been decommissioned as Yahoo Finance historical market returns API
+I installed yfinance, since fix_yahoo_finance had been decommissioned as a Yahoo Finance historical market returns API
 
 
 Refererence Materials:
